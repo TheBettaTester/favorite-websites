@@ -58,15 +58,9 @@ my-favorite-websites/
 
 ---
 
-## 🌐 Acesso ao projeto
+## 🌐 Acesso ao site
 
-👉 https://seu-usuario.github.io/my-favorite-websites/
-
----
-
-## 📸 Preview
-
-![Preview do site](preview.png)
+👉 [https://seu-usuario.github.io/my-favorite-websites/](https://thebettatester.github.io/favorite-websites/)
 
 ---
 
