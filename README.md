@@ -60,7 +60,7 @@ my-favorite-websites/
 
 ## 🌐 Acesso ao site
 
-👉 [https://seu-usuario.github.io/my-favorite-websites/](https://thebettatester.github.io/favorite-websites/)
+👉 [https://thebettatester.github.io/favorite-websites](https://thebettatester.github.io/favorite-websites/)
 
 ---
 
