@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My favorite websites</title>
+
+    <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: url("background.png") no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            margin: 0;
+            padding-top: 140px;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.65);
+            z-index: -1;
+        }
+
+        .topbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 20px 0;
+            z-index: 1000;
+            background: rgba(33, 37, 41, 0.85);
+            backdrop-filter: blur(6px);
+            border-bottom: 2px solid rgba(255,255,255,0.1);
+        }
+
+        .topbar .content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .container-main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .sites {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            width: 220px;
+            text-align: center;
+        }
+
+        /* 🔥 PADRONIZAÇÃO DOS ÍCONES */
+        img {
+            width: 64px;
+            margin-top: 10px;
+            image-rendering: pixelated;
+        }
+
+        /* ⭐ estrela */
+        .star {
+            width: 24px;
+            margin: 0 10px;
+            vertical-align: middle;
+            image-rendering: pixelated;
+        }
+
+        .github-link {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(33, 37, 41, 0.85);
+            padding: 10px;
+            border-radius: 8px;
+            backdrop-filter: blur(6px);
+        }
+
+        .credits {
+            text-align: center;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="topbar">
+    <div class="content">
+        <h1 class="nes-text is-primary">
+            <img src="icons/star.png" class="star">
+            My favorite websites
+            <img src="icons/star.png" class="star">
+        </h1>
+    </div>
+</header>
+
+<div class="container-main">
+
+<!-- STREAMING -->
+<div class="section">
+<h2 class="nes-text is-error"># Streaming</h2>
+<div class="sites">
+
+<div class="card nes-container is-dark with-title">
+<p class="title">YouTube</p>
+<img src="icons/youtube.png"><br><br>
+<a href="https://www.youtube.com" class="nes-btn is-primary">Visit</a>
+</div>
+
+<div class="card nes-container is-dark with-title">
+<p class="title">Netflix</p>
+<img src="icons/netflix.png"><br><br>
+<a href="https://www.netflix.com" class="nes-btn is-primary">Visit</a>
+</div>
+
+</div>
+</div>
+
+<!-- SOCIAL -->
+<div class="section">
+<h2 class="nes-text is-warning"># Social Media</h2>
+<div class="sites">
+
+<div class="card nes-container is-dark with-title">
+<p class="title">Reddit</p>
+<img src="icons/reddit.png"><br><br>
+<a href="https://www.reddit.com" class="nes-btn is-primary">Visit</a>
+</div>
+
+<div class="card nes-container is-dark with-title">
+<p class="title">Discord</p>
+<img src="icons/discord.png"><br><br>
+<a href="https://discord.com" class="nes-btn is-primary">Visit</a>
+</div>
+
+</div>
+</div>
+
+<!-- ART -->
+<div class="section">
+<h2 class="nes-text is-success"># Art</h2>
+<div class="sites">
+
+<div class="card nes-container is-dark with-title"><p class="title">DeviantArt</p><img src="icons/deviantart.png"><br><br><a href="https://www.deviantart.com" class="nes-btn is-primary">Visit</a></div>
+<div class="card nes-container is-dark with-title"><p class="title">Cara</p><img src="icons/cara.png"><br><br><a href="https://cara.app/explore" class="nes-btn is-primary">Visit</a></div>
+<div class="card nes-container is-dark with-title"><p class="title">VGen</p><img src="icons/vgen.png"><br><br><a href="https://vgen.co" class="nes-btn is-primary">Visit</a></div>
+<div class="card nes-container is-dark with-title"><p class="title">Toyhou.se</p><img src="icons/toyhouse.png"><br><br><a href="https://toyhou.se" class="nes-btn is-primary">Visit</a></div>
+<div class="card nes-container is-dark with-title"><p class="title">Pinterest</p><img src="icons/pinterest.png"><br><br><a href="https://www.pinterest.com" class="nes-btn is-primary">Visit</a></div>
+<div class="card nes-container is-dark with-title"><p class="title">ComicFury</p><img src="icons/comicfury.png"><br><br><a href="https://comicfury.com" class="nes-btn is-primary">Visit</a></div>
+
+</div>
+</div>
+
+<!-- GAMES -->
+<div class="section">
+<h2 class="nes-text is-primary"># Games</h2>
+<div class="sites">
+
+<div class="card nes-container is-dark with-title"><p class="title">Neopets</p><img src="icons/neopets.png"><br><br><a href="https://www.neopets.com" class="nes-btn is-primary">Visit</a></div>
+<div class="card nes-container is-dark with-title"><p class="title">Steam</p><img src="icons/steam.png"><br><br><a href="https://store.steampowered.com" class="nes-btn is-primary">Visit</a></div>
+<div class="card nes-container is-dark with-title"><p class="title">GOG</p><img src="icons/gog.png"><br><br><a href="https://www.gog.com" class="nes-btn is-primary">Visit</a></div>
+
+</div>
+</div>
+
+<!-- TRACKING -->
+<div class="section">
+<h2 class="nes-text is-primary"># Tracking</h2>
+<div class="sites">
+
+<div class="card nes-container is-dark with-title"><p class="title">Letterboxd</p><img src="icons/letterboxd.png"><br><br><a href="https://letterboxd.com" class="nes-btn is-primary">Visit</a></div>
+<div class="card nes-container is-dark with-title"><p class="title">Backloggd</p><img src="icons/backloggd.png"><br><br><a href="https://backloggd.com" class="nes-btn is-primary">Visit</a></div>
+
+</div>
+</div>
+
+<!-- SHOPPING -->
+<div class="section">
+<h2 class="nes-text is-warning"># Shopping</h2>
+<div class="sites">
+
+<div class="card nes-container is-dark with-title"><p class="title">Amazon</p><img src="icons/amazon.png"><br><br><a href="https://www.amazon.com" class="nes-btn is-primary">Visit</a></div>
+<div class="card nes-container is-dark with-title"><p class="title">Mercado Livre</p><img src="icons/mercadolivre.png"><br><br><a href="https://www.mercadolivre.com.br" class="nes-btn is-primary">Visit</a></div>
+<div class="card nes-container is-dark with-title"><p class="title">Shopee</p><img src="icons/shopee.png"><br><br><a href="https://shopee.com.br" class="nes-btn is-primary">Visit</a></div>
+
+</div>
+</div>
+
+<!-- CREDITS -->
+<div class="credits">
+    <p>
+        <img src="icons/star.png" class="star">
+        UI Style by 
+        <a href="https://github.com/nostalgic-css/NES.css" target="_blank">
+            NES.css
+        </a>
+        <img src="icons/star.png" class="star">
+    </p>
+</div>
+
+</div>
+
+<a href="https://github.com/SEU-USUARIO/SEU-REPOSITORIO" target="_blank" class="github-link">
+    <i class="nes-icon github is-medium"></i>
+</a>
+
+</body>
+</html>
